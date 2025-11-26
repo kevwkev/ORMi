@@ -26,7 +26,7 @@ namespace ORMi
             using (WindowsIdentity windowsIdentity = WindowsIdentity.GetCurrent())
             {
 
-#if NET461
+#if NET462
             WindowsImpersonationContext impersonatedUser = windowsIdentity.Impersonate();
 #endif
 #if NETSTANDARD20
@@ -64,7 +64,7 @@ namespace ORMi
             using (WindowsIdentity windowsIdentity = WindowsIdentity.GetCurrent())
             {
 
-#if NET461
+#if NET462
             WindowsImpersonationContext impersonatedUser = windowsIdentity.Impersonate();
 #endif
 #if NETSTANDARD20
@@ -102,7 +102,7 @@ namespace ORMi
             using (WindowsIdentity windowsIdentity = WindowsIdentity.GetCurrent())
             {
 
-#if NET461
+#if NET462
             WindowsImpersonationContext impersonatedUser = windowsIdentity.Impersonate();
 #endif
 #if NETSTANDARD20
@@ -150,7 +150,7 @@ namespace ORMi
             using (WindowsIdentity windowsIdentity = WindowsIdentity.GetCurrent())
             {
 
-#if NET461
+#if NET462
             WindowsImpersonationContext impersonatedUser = windowsIdentity.Impersonate();
 #endif
 #if NETSTANDARD20
